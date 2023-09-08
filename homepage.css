@@ -1,0 +1,196 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #fff;
+}
+/* Header */
+header {
+    background-color: rgb(30, 55, 101)
+
+}
+
+.first-header {
+    padding: 40px 30px;
+    display: flex;
+}
+
+.University-logo-wrapper {
+    width: 30%;
+}
+
+.first-header-tools-wrapper {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+
+ul.tools-bar {
+    list-style: none;
+    display: flex;
+}
+
+ul.nav-links-wrapper{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    color: #fff;
+    background-color: rgb(0, 30, 66);
+    padding: 0;
+    justify-content: space-around;
+}
+
+li.nav-link {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 10px 0;
+    border: 0;
+    border-right: 1.8px solid rgb(30, 55, 101);
+    text-align: center;
+    
+}
+
+/* Main-content */
+
+.general-wrapper {
+    padding: 30px 50px;
+    padding-bottom: 0;
+}
+
+.first-img-wrapper {
+    background-image: url(first-img.webp);
+    padding: 30px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.first-img-description {
+    width: 80%;
+    margin:  auto;
+    padding-top: 400px;
+}
+
+.description11 {
+    font-family: "Trade Gothic LT W01 Bd CnNo-20",arial,sans-serif !important;
+    background-color: #1E3765;
+    color: #fff;
+    display: inline-block;
+    padding: 15px 20px;
+    font-weight: 600;
+
+}
+
+.description12 {
+    background-color: #ffff;
+    color: #1E3765;
+    font-size: 40px;
+    padding: 30px 40px;
+    text-align: left;
+    margin: auto;
+    font-weight : 200;
+    line-height: 44px;
+}
+.second-img-wrapper{
+    background-image: url(second-img.webp);
+    max-width: 1110px;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px ;
+    padding: 10px;
+    margin: 10px auto;
+
+}
+
+.second-img-description {
+    width: 300px;
+    text-align: center;
+    padding: 10px 40px;
+}
+
+.description21{
+    font-size: 30px;
+    color: #fff;
+    width: 100%;
+    padding: 18px 0;
+
+}
+
+.description22 {
+   padding-top: 50px;
+
+}
+
+.description-btn{
+    padding: 16px 20px;
+    font-weight: 700;
+    color: #1E3765;
+    background-color: #fff;
+    border: 2px solid #f1c500;
+    border-radius: 50px;
+
+}
+
+.section-two-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* border: 1px solid black; */
+    max-width: 1110px;
+    margin: 0 auto;
+    gap: 20px;
+
+}
+
+.section-two-headins{
+    font-size: 32px;
+    color: #2868a0;
+    font-weight: 600;
+}
+
+.section-two-imgs{
+    width: 100%;
+    /* height: 100%; */
+    object-fit: cover;
+    display: block;
+}
+
+.events-items, .news-items {
+    border-bottom: solid 1px #d0d1c9;
+    padding-bottom: 30px;
+}
+
+.date{
+    color: #485667;
+    font-weight: 400;
+    margin: 15px 0;
+}
+
+.headline{
+    color: #2868a0;
+    font-size: 18px;
+}
+.btn-items{
+    margin-top: 30px;
+    color: #fff;
+    background-color: #007FA3;
+    padding: 15px 20px;
+    font-size: 16px;
+    border: 0;
+    border-radius: 2px;
+
+}
+
+.article-one-holder{
+    background-color: #fff;
+    max-width: 1110px;
+    margin: 0 auto;
+    height: 536px;
+    padding: 30px;
+}
